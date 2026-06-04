@@ -1,107 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Software Tester Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
-    <!-- VWO SmartCode removed for brevity.
-         If you use Visual Website Optimizer, paste the full Async SmartCode here (only once). -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhilesh Behera | Senior QA Automation Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">    
 </head>
 <body>
+
     <header>
         <div class="container">
             <h1>Akhilesh Behera</h1>
-            <p>Software Tester</p>
+            <p class="subtitle">Senior QA Automation Engineer & SDET</p>
+            
+            <div class="social-icons-row">
+                <a href="https://github.com/Akhilesh88" target="_blank" class="social-icon-link" title="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/akhilesh-behera-314702157" target="_blank" class="social-icon-link" title="LinkedIn Profile">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:akhileshbehera74@gmail.com" class="social-icon-link" title="Email Me">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+
             <nav>
-                <ul class="container">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#github-projects">Featured Work</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
             </nav>
         </div>
     </header>
 
-    <section id="hero">
-        <div class="container">
-            <h2>Software Tester</h2>
-            <p>Testing software to ensure quality and functionality.</p>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am a passionate software tester with expertise in manual and automated testing techniques. I have experience working on various projects across different domains, ensuring high-quality software and reliable releases.</p>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>Manual Testing</li>
-                <li>Automated Testing (Selenium, Cypress)</li>
-                <li>Regression Testing</li>
-                <li>Test Case Design</li>
-                <li>Bug Tracking and Reporting</li>
-                <li>Quality Assurance Processes</li>
-            </ul>
-        </div>
-    </section>
-<section id="projects-poc">
-  <div class="container">
-    <h2>🚀 Github Projects</h2>
-    <div class="project-card">
-      <h3>📝 Todo List</h3>
-      <p>A simple and elegant To‑Do List web application built with HTML, CSS, and JavaScript.</p>
-      <a href="https://to-do-list-seven-gamma-85.vercel.app/" target="_blank" class="btn">
-        🔗 Visit Todo List Web Application
-      </a>
-    </div>
-  </div>
-</section>
-
-    <section id="Client projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-                <h3>Evertz Microsystem</h3>
-                <p>QA Engineer role testing firmware builds for the audio/video broadcasting domain.</p>
-                <p>Experienced in UI functionality testing for web-based applications.</p>
+    <div class="container">
+        
+        <section id="about" class="card">
+            <h2>Professional Profile</h2>
+            <p>Senior Quality Assurance Engineer and SDET with over four years of experience in the technology sector. Expert in architecting intelligent, self-healing automation frameworks and deploying open-source local LLMs to eliminate test maintenance overhead, improve locator reliability, and accelerate regression testing pipelines.</p>
+            
+            <div style="margin-top: 10px; display: flex; gap: 20px; flex-wrap: wrap;">
+                <a href="https://github.com/Akhilesh88" target="_blank" class="inline-action-btn">
+                    <i class="fab fa-github"></i> GitHub Code repositories
+                </a>
+                <a href="https://linkedin.com/in/akhilesh-behera-314702157" target="_blank" class="inline-action-btn">
+                    <i class="fab fa-linkedin"></i> Professional Network
+                </a>
             </div>
-            <div class="project">
-                <h3>Eaton</h3>
-                <p>Eaton is an intelligent power management company dedicated to improving quality of life and protecting the environment for people everywhere.</p>
-                <p>Implemented a BDD framework using Java and Selenium; responsible for defect management and test automation.</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <form action="#" method="POST">
-                <input type="text" name="name" placeholder="Your Name" required />
-                <input type="email" name="email" placeholder="Your Email" required />
-                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <section id="skills" class="card">
+            <h2>Core Competencies</h2>
+            <div class="skills-container">
+                <span class="chip">Java & Selenium WebDriver</span>
+                <span class="chip">Self-Healing Automation</span>
+                <span class="chip">Local LLM Integration (Llama 3.2)</span>
+                <span class="chip">REST Assured (API Testing)</span>
+                <span class="chip">Prompt Engineering for QA</span>
+                <span class="chip">Docker & Containerization</span>
+                <span class="chip">Jenkins & GitHub Actions</span>
+                <span class="chip">TestNG / Cucumber (BDD)</span>
+            </div>
+        </section>
+
+        <section id="github-projects" class="card">
+            <h2>Featured Open-Source Work</h2>
+            
+            <div class="exp-item">
+                <span class="role">Self-Healing Local LLM Automation Engine</span>
+                <span class="company">Active Project & Architecture Baseline</span>
+                <p>Designed and built an intelligent self-healing test automation component powered by a locally deployed <strong>Llama-3.2-1B</strong> model. This solution dynamically intercepts UI runtime exceptions to eliminate fragile UI paths.</p>
+                <ul class="project-bullet-list">
+                    <li><strong>Dynamic DOM Analysis:</strong> Implemented runtime capture mechanisms to pass broken HTML contexts directly into the local model when standard locators fail.</li>
+                    <li><strong>Prompt Engineering for QA:</strong> Structured precise contextual instructions guiding the local LLM to predict alternative, highly accurate CSS selectors or XPaths based on real-time DOM changes.</li>
+                    <li><strong>Zero Cloud Overhead:</strong> Engineered the pipeline to run strictly locally via lightweight model parameters, guaranteeing absolute data privacy and omitting expensive third-party API subscription costs.</li>
+                </ul>
+                <a href="https://github.com/Akhilesh88/Self-Healing-Local-LLM-model-llama-3.2-1B" target="_blank" class="inline-action-btn">
+                    <i class="fas fa-code-branch"></i> Explore Repository Code
+                </a>
+            </div>
+        </section>
+
+        <section id="experience" class="card">
+            <h2>Work History</h2>
+            
+            <div class="exp-item">
+                <span class="role">Senior Test Analyst / SDET</span>
+                <span class="company">NextGen Invent Corporation (Feb 2026 – Present)</span>
+                <p>Architecting comprehensive QA test execution strategies for enterprise platforms, driving patient journey automation and implementing self-healing script capabilities.</p>
+            </div>
+
+            <div class="exp-item">
+                <span class="role">Test Engineer</span>
+                <span class="company">Yash Technologies (Nov 2021 – Feb 2026)</span>
+                <p>Delivered robust automation solutions and regression suites over a four-year tenure.</p>
+            </div>
+            
+            <div class="exp-item">
+                <span class="role">QA Automation Project Work</span>
+                <span class="company">Eaton & Evertz Microsystems</span>
+                <p>Implemented clean BDD frameworks using Java and Selenium for specialized web and firmware system validations.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="card">
+            <h2>Connect</h2>
+            <form class="contact-form" action="mailto:akhileshbehera74@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn">Send Message</button>
             </form>
-        </div>
-    </section>
+        </section>
+
+    </div>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2026 Akhilesh Behera. All rights reserved.</p>
-            <nav>
-                <ul>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                </ul>
-            </nav>
-        </div>
+        <p>&copy; 2026 Akhilesh Behera. Built with Material Design & Minimal CSS.</p>
     </footer>
+
 </body>
 </html>
